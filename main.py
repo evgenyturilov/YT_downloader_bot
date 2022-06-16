@@ -8,7 +8,6 @@ print('server active')
 
 app.add_handler(CommandHandler("hello", hello))
 app.add_handler(CommandHandler("help", help))
-app.add_handler(CommandHandler("link", link))
-app.add_handler(CommandHandler("download", download))
+app.add_handler(CommandHandler("download", dwnld))
 
 app.run_polling()
